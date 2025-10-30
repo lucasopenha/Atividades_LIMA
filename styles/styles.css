@@ -17,8 +17,8 @@ body {
 }
 
 .container{
-    width: 60%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     background-color: #fff;
 
     box-shadow: 0 0 10px white;
@@ -28,11 +28,7 @@ body {
     overflow: hidden;
 }
 
-.img,
-.login {
-    width: 35%;
-    height: 100%;
-}
+
 
 .img{
     background-image: url("../imagens/fe8603e10b8b00837d69f2cb4f4c8d49.jpg");
@@ -41,16 +37,17 @@ body {
     background-size: cover;
 
     background-color: aliceblue;
-
+    width: 50%;
 
 }
 .login {
-
-    padding-left: 50px;
-
+    text-align: center;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5px;
+    align-items: center;
 }
 
 .login h1 {
@@ -61,11 +58,24 @@ body {
 .login p{
     color: black;
 }
+button{
+    margin-top: 15px;
+    width: 30%;
+    height: 30px;
+}
 
-form{
-    margin-top: 30px;
-
-    display: table;
-    flex-wrap: wrap;
-    gap: 20px;
+select{
+    width: 30%;
+    height: 30px;
+    margin-top: 15px;
+}
+.sexo{
+    margin-top: 5px;
+}
+input{
+    text-align: center;
+    width: 30%;
+}
+.inp{
+    height: 30px;
 }

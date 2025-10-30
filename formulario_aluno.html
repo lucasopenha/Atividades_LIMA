@@ -16,13 +16,32 @@
             <p>Dados pessoais</p>
 
             <form action="" method="">
+                <form class="nome" action=""></form>
                 <p>Nome</p>
-                <input type="text" name="Informe seu nome completo" id="Informe seu nome completo" placeholder="Informe seu nome completo">
-                <p>Cpf</p>
-                <input type="text" name="Informe os números do seu CPF" id="Informe os números do seu CPF" placeholder="Informe os números do seu CPF">
+                <input class="inp" required type="text" name="Informe seu nome completo" id="Informe seu nome completo" placeholder="Informe seu nome completo">
+                <p>Idade</p>
+                <input class="inp" required type="number" name="Informe os números do seu CPF" id="Informe os números do seu CPF" placeholder="Informe sua idade">
                 <p>Email</p>
-                <input type="email" name="Informe o seu e-mail" id="Informe o seu e-mail" placeholder="Informe o seu e-mail">
+                <input class="inp" required type="email" name="Informe o seu e-mail" id="Informe o seu e-mail" placeholder="Informe o seu e-mail">
                 <p>Senha</p>
-                <input type="password" name="* * * * *" id="* * * * *" placeholder="* * * * *">
+                <input class="inp" required type="password" name="* * * * *" id="* * * * *" placeholder="* * * * *">
+                <p>Telefone</p>
+                <input class="inp" placeholder="Seu telefone..." required type="tel">
+                <input class="sexo" required type="radio" name="sexo" value="masculino" id="masculino">
+                <label for="">Masculino</label>
+                <input class="sexo" required type="radio" name="sexo" value="feminino" id="feminino">
+                <label for="">Feminino</label>
+
+                <select name="estado" id="estado">
+                    <option disabled selected value="">Selecione seu Estado</option>
+                    <option value="">SP</option>
+                    <option value="">RJ</option>
+                    <option value="">MG</option>
+                    <option value="">RS</option>
+                    <option value="">AM</option>
+                    <option value="">ES</option>
+                </select>
+
+                <button>Enviar</button>
 </body>
 </html>
